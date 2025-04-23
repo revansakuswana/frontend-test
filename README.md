@@ -1,6 +1,6 @@
 # 🌐 Frontend Test Elemes
 
-Ini adalah proyek website **Landing Page** yang dibangun sebagai bagian dari **Frontend Test**. Website ini dirancang untuk **responsive design**, sehingga tampil optimal baik di **desktop** maupun **mobile**.
+Ini adalah proyek website **Landing Page** yang dibangun sebagai bagian dari **Frontend Test** Elemes Group. Website ini dirancang untuk **responsive design**, sehingga tampil optimal baik di **desktop** maupun **mobile**.
 
 ## 🧰 Teknologi yang Digunakan
 
@@ -8,40 +8,31 @@ Ini adalah proyek website **Landing Page** yang dibangun sebagai bagian dari **F
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Heroicons](https://heroicons.com/)
 - [React](https://react.dev/)
-- [TypeScript] (https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-## 📦 Instalasi
+## Requirements
 
-Pastikan kamu sudah menginstall **Node.js (v16 atau lebih baru)** dan **npm**.
+- [Node.js](https://nodejs.org/en/) 18+
 
-### 1. Clone repositori
+## Installation
 
-git clone https://github.com/revansakuswana/frontend-test-elemes.git
+```bash
+git clone https://github.com/revansakuswana/frontend-test.git
+```
 
-## 2. Install dependencies
+## Install dependencies (npm or yarn)
 
-# Dengan npm
-
+```bash
+cd frontend
 npm install
+```
 
-# atau dengan yarn
+## Start the development server
 
-yarn install
-
-## 3.Masuk Ke directory project
-
-cd frontend-test
-
-## 3. Jalankan server development
-
-# Dengan npm
-
+```bash
 npm run dev
-
-# atau dengan yarn
-
-yarn dev
+```
 
 ## Link deployment
 
-Buka [http://] dengan browser Anda untuk melihat hasilnya.
+Buka [https://frontend-test-elemes.vercel.app/](https://frontend-test-elemes.vercel.app/) dengan browser Anda untuk melihat hasilnya.

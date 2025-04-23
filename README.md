@@ -2,7 +2,7 @@
 
 Ini adalah proyek website **Landing Page** yang dibangun sebagai bagian dari **Frontend Test** Elemes Group. Website ini dirancang untuk **responsive design**, sehingga tampil optimal baik di **desktop** maupun **mobile**.
 
-## 🧰 Teknologi yang Digunakan
+## Tools & Technology
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)

@@ -84,10 +84,10 @@ export default function Category() {
             {categories.map((item) => (
               <SwiperSlide
                 key={item.id}
-                className="overflow-hidden w-[180px] sm:w-[200px]">
-                <div className="h-[200px]">
+                className="overflow-hidden w-[180px] sm:w-[230px]">
+                <div className="h-[225px]">
                   <div
-                    className={`relative h-[150px] hover:h-[170px] rounded-xl flex flex-col justify-center items-center transition-all duration-300 cursor-pointer group ${item.bg}`}>
+                    className={`relative h-[175px] hover:h-[195px] rounded-xl flex flex-col justify-center items-center transition-all duration-300 cursor-pointer group ${item.bg}`}>
                     <div
                       className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-all duration-300 rounded-xl"
                       style={{

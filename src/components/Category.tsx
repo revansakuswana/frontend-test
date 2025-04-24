@@ -82,38 +82,42 @@ export default function Category() {
               1024: { slidesPerView: 5.4 },
             }}>
             {categories.map((item) => (
-              <SwiperSlide key={item.id} className="w-[180px] sm:w-[200px]">
-                <div
-                  className={`relative h-[150px] rounded-xl flex flex-col justify-center items-center transition-all duration-300 cursor-pointer group ${item.bg}`}>
+              <SwiperSlide
+                key={item.id}
+                className="overflow-hidden w-[180px] sm:w-[200px]">
+                <div className="h-[200px]">
                   <div
-                    className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-all duration-300 rounded-xl"
-                    style={{
-                      backgroundImage: `url('/bg-hero.svg')`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                    }}
-                  />
-                  <Image
-                    src={item.img}
-                    alt={item.label}
-                    width={50}
-                    height={50}
-                    className="z-10 mb-4 sm:mb-6"
-                  />
-                  <h4 className="font-semibold text-gray-800 z-10 text-sm sm:text-base">
-                    {item.label}
-                  </h4>
-                  <p className="text-xs sm:text-sm text-gray-600 z-10">
-                    {item.count} Items
-                  </p>
+                    className={`relative h-[150px] hover:h-[170px] rounded-xl flex flex-col justify-center items-center transition-all duration-300 cursor-pointer group ${item.bg}`}>
+                    <div
+                      className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-all duration-300 rounded-xl"
+                      style={{
+                        backgroundImage: `url('/bg-hero.svg')`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                      }}
+                    />
+                    <Image
+                      src={item.img}
+                      alt={item.label}
+                      width={50}
+                      height={50}
+                      className="z-10 mb-4 sm:mb-6"
+                    />
+                    <h4 className="font-semibold text-gray-800 z-10 text-sm sm:text-base">
+                      {item.label}
+                    </h4>
+                    <p className="text-xs sm:text-sm text-gray-600 z-10">
+                      {item.count} Items
+                    </p>
+                  </div>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
 
-        <div className="container max-w-screen-xl mx-auto hidden sm:flex justify-end gap-4 mt-10 px-4 sm:px-6 lg:px-8">
+        <div className="container max-w-screen-xl mx-auto hidden sm:flex justify-end gap-4 px-4 sm:px-6 lg:px-8">
           <button className="custom-prev flex items-center gap-2 bg-[var(--color-primary)] text-white font-medium px-3 py-3 rounded-full">
             <div className="w-10 h-10 bg-white text-[var(--color-primary)] rounded-full flex items-center justify-center">
               <ChevronLeftIcon className="w-6 h-6" />
